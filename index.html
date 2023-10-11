@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Comprehensive HTML Example</title>
+    <style>
+        /* CSS for styling */
+        body {
+            background-color: #f0f0f0; /* Background color of the entire page */
+            color: #333; /* Text color */
+            font-family: Arial, sans-serif; /* Font for text */
+        }
+        .container {
+            width: 80%; /* Set the width of the content container */
+            margin: 0 auto; /* Center the container horizontally */
+        }
+        .link {
+            color: #0077cc; /* Link text color */
+            text-decoration: none; /* Remove underline from links */
+        }
+        .link:hover {
+            text-decoration: underline; /* Add underline on hover */
+        }
+        .styled-paragraph {
+            color: #0077cc; /* Blue text color */
+            background-color: #ffee00; /* Yellow background color */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to My Comprehensive HTML Example</h1>
+
+        <p>This is a comprehensive example covering various HTML elements and styles:</p>
+
+        <!-- Anchor Tag -->
+        <a class="link" href="https://www.google.com" target="_blank">Visit google.com</a>
+
+        <p>Here's an image:</p>
+
+        <!-- Image Tag -->
+        <img src="c:\Users\ArchanaRK\Desktop\html img.png" alt="Example Image" width="300" height="200" style="border: 2px solid #333;">
+
+        <p class="styled-paragraph">This is a styled paragraph with blue text color and a yellow background.</p>
+
+        <!-- Headings -->
+        <h2>Additional Headings</h2>
+        <h2>Heading 2</h2>
+        <h3>Heading 3</h3>
+        <h4>Heading 4</h4>
+
+        <!-- Lists -->
+        <h2>Unordered List</h2>
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ul>
+
+        <h2>Ordered List</h2>
+        <ol>
+            <li>First item</li>
+            <li>Second item</li>
+            <li>Third item</li>
+        </ol>
+
+        <h2>Definition List</h2>
+        <dl>
+            <dt>HTML</dt> <!-- Term -->
+            <dd>HyperText Markup Language</dd> <!-- Description -->
+            <dt>CSS</dt> <!-- Term -->
+            <dd>Cascading Style Sheets</dd> <!-- Description -->
+        </dl>
+
+        <!-- HTML Forms Extended -->
+        <h2>HTML Forms Extended</h2>
+
+        <!-- Form -->
+        <form action="submit.php" method="post">
+            <!-- Text Input -->
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br>
+
+            <!-- Email Input -->
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br>
+
+            <!-- Textarea for Longer Messages -->
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50"></textarea><br>
+
+            <!-- Radio Buttons for Gender Selection -->
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br>
+
+            <!-- Dropdown Select Menu for Choosing a Country -->
+            <label for="country">Country:</label>
+            <select id="country" name="country">
+                <option value="usa">USA</option>
+                <option value="canada">Canada</option>
+                <option value="uk">UK</option>
+            </select><br>
+
+            <!-- Checkboxes for Subscription Options -->
+            <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+            <label for="subscribe">Subscribe to newsletter</label><br>
+
+            <!-- Submit Button for Form Submission -->
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    
+    <script>
+        // JavaScript can be included here to add interactivity to your page
+        console.log("This is a script example.");
+    </script>
+</body>
+</html>
