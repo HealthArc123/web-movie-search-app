@@ -1,0 +1,119 @@
+body {
+    background-color: red; /* Red background color for the entire page */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333; /* Text color for the entire page */
+}
+
+.container {
+    width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: justify;
+    border: 2px dotted #777;
+    background-color: #f9f9f9;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    background: linear-gradient(45deg, #007BFF, #33cc33);
+    color: #007BFF; /* Blue text color for the header */
+    padding: 20px 0;
+    margin: 0;
+    text-align: center;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+p {
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    margin: 10px 0;
+    padding: 20px;
+    text-align: justify;
+    line-height: 1.5;
+    font-size: 16px;
+    color: #333; /* Dark gray text color for paragraphs */
+}
+
+a {
+    text-decoration: none;
+    color: #007BFF; /* Link color */
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #33cc33; /* Green text color for links on hover */
+}
+
+image-div {
+    background: url('c:\Users\ArchanaRK\Desktop\html img.png') center/cover no-repeat;
+    height: 300px;
+    margin: 20px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+th {
+    font-weight: bold;
+    text-align: left;
+    background: linear-gradient(45deg, #FF4500, #007BFF);
+    color: #fff; /* White text color for table headers */
+}
+
+dropdown {
+    position: relative;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+dropbtn {
+    background: linear-gradient(45deg, #007BFF, #FF4500);
+    color: #fff; /* White text color for dropdown button */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+}
+
+dropdown:hover .dropdown-content {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+    padding: 10px 15px;
+    color: #333;
+    font-style: italic;
+}
+
+a:hover {
+    background-color: #e0e0e0;
+}
